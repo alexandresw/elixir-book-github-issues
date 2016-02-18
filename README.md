@@ -20,7 +20,7 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 
 
 RUN:
-mix run -e 'Issues.CLI.run(["elixir-lang", "elixir", "10"])'
+mix run -e 'Issues.CLI.main(["elixir-lang", "elixir", "10"])'
 
 TEST:
 mix test
