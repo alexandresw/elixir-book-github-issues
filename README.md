@@ -18,3 +18,16 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
           [applications: [:issues]]
         end
 
+
+RUN:
+mix run -e 'Issues.CLI.run(["elixir-lang", "elixir", "10"])'
+
+TEST:
+mix test
+
+
+Package the program using mix:
+​$ ​​mix​​ ​​escript.build
+
+RUN:
+$ ​​./issues​​ ​​elixir-lang​​ ​​elixir​​ ​​3​
